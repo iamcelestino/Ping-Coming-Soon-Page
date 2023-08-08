@@ -1,0 +1,140 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap');
+
+:root{
+    --primary:hsl(223, 87%, 63%);
+    --secondary:hsl(354, 100%, 66%);
+    --secondary1: hsl(223, 100%, 88%);
+    --neutral: hsl(0, 0%, 59%);
+    --neutral1: hsl(209, 33%, 12%);
+}
+
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 1.25em;
+}
+
+.container{
+    margin: auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+.main__content p:nth-child(1){
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: var(--neutral);
+}
+
+ p > span{
+    font-weight: 700;
+    color: var(--neutral1);
+}
+
+.main__content p:nth-child(2){
+    font-size: 1rem;
+}
+
+img{
+    max-width: 100%;
+}
+
+form{
+    margin: auto;
+    padding: 2rem 0;
+    width: 90%;
+}
+
+.input__container, .icon{
+   margin-bottom: 2rem; 
+}
+
+input,
+button{
+    padding: 1em;
+    border-radius: 30px;
+    border: none;
+    width: 100%;
+}
+
+input{
+    border: 1px solid var(--secondary1);
+}
+
+::placeholder{
+    color: var(--secondary1);
+}
+
+.error__message{
+    padding: 0.4rem;
+    font-size: 0.65em;
+    color: var(--secondary);
+    display: none;
+}
+
+button{
+    color: #fff;
+    background-color: var(--primary);
+    font-weight: bold;
+    box-shadow: 0.7px 6px 7px var(--secondary1);
+    cursor: pointer;
+}
+
+figure {
+    text-align: center;
+}
+
+ion-icon{
+    color: var(--primary);
+    padding: 8px;
+    border-radius: 20px;
+    border: 1px solid var(--secondary1);
+}
+
+ion-icon:hover{
+    color: white;
+    background-color: var(--primary);
+    transition: background-color 3s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.footer__description{
+    margin-top: 0.3rem;
+    font-size: 0.8rem;
+    color: var(--neutral);
+}
+
+@media screen and (min-width: 37.5em){
+    form{
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .input__container{
+        width: 70%;
+    }
+
+    .submit__btn{
+        width: 40%;
+    }
+}
+
+@media screen and (min-width: 90.25em){
+    form{
+        width: 60%;
+    }
+}
+
+
+
+
