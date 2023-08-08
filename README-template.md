@@ -7,8 +7,8 @@
 
 ### Links
 
-- Solution URL: [Add solution URL here]()
-- Live Site URL: [Add live site URL here]()
+- Solution URL:[repo] (https://github.com/iamcelestino/Ping-coming-soon-page.git)
+- Live Site URL:[live site](https://iamcelestino.github.io/Ping-coming-soon-page/)
 
 ## My process
 
@@ -18,7 +18,7 @@
 - CSS custom properties
 - Flexbox
 - Mobile-first workflow
-
+- JavaScript
 
 ### Continued development
 -Responsive design
