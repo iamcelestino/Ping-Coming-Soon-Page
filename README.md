@@ -7,7 +7,7 @@
 
 ### Links
 
-- Solution URL:[repo] (https://github.com/iamcelestino/Ping-coming-soon-page.git)
+- Solution URL:[repo](https://github.com/iamcelestino/Ping-coming-soon-page.git)
 - Live Site URL:[live site](https://iamcelestino.github.io/Ping-coming-soon-page/)
 
 ## My process
